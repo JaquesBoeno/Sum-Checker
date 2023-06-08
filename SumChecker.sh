@@ -61,8 +61,8 @@ esac
 
 # Verify the sum and return the result
 if [[ "$hash" == "$sum" ]]; then
-  echo "${succes_green}as somas coincidem ${reset_colors}"
+  echo "${succes_green}The sums match${reset_colors}"
 else
-  echo "${failed_red}as somas são  diferentes${reset_colors}"
+  echo "${failed_red}The sums don't match${reset_colors}"
   echo "$alg hash: $hash"
 fi
